@@ -1,0 +1,283 @@
+{ "_version": "1.1.0",
+  "sap.app": {
+    "_version": "1.2.0",
+    "id": "com.sap.build.standard.creditHealth",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "dataSources":{
+      
+       "main": {
+          "uri": "/here/goes/your/serviceUrl/",
+          "type": "OData",
+          "settings": {
+            "odataVersion": "2.0",
+            "localUri": "localService/metadata.xml"
+          }
+        }
+      
+    },
+      "title": "{{appTitle}}",
+      "description": "{{appDescription}}",
+      "ach": "ach",
+      "resources": "resources.json",
+      "sourceTemplate": {
+        "id": "ui5template.basicSAPUI5ApplicationProject",
+        "version": "1.32.0"
+      }
+  },
+  "sap.ui": {
+    "_version": "1.2.0",
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+     "supportedThemes": [
+        "sap_bluecrystal"
+     ]
+  },
+  "sap.ui5": {
+    "_version": "1.1.0",
+    "rootView": {
+      "viewName": "generated.app.view.liquidity_metrics_graphs",
+      "type": "XML"
+    },
+    "dependencies": {
+      "minUI5Version": "1.32.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+        "i18n": {
+          "type": "sap.ui.model.resource.ResourceModel",
+          "uri": "i18n/i18n.properties"
+        },
+        
+          "":{
+          "dataSource": "main",
+          "type": "sap.ui.model.odata.v2.ODataModel",
+          "settings": {
+            "loadMetadataAsync": false,
+            "json": true,
+            "bJSON": true,
+            "defaultBindingMode": "TwoWay",
+            "useBatch": true,
+            "refreshAfterChange": false,
+            "disableHeadRequestForToken": true
+           }
+          }
+          
+      },
+      "resources": {
+        "css": []
+      },
+      "routing": {
+          "config": {
+            "routerClass": "sap.m.routing.Router",
+            "viewType": "XML",
+            "viewPath": "com.sap.build.standard.creditHealth.view",
+            "controlId": "App",
+            "clearTarget": false,
+            "controlAggregation": "pages",
+            "bypassed": {
+              "target": [
+                   "summary_page"
+              ]
+            }
+          },
+          "targets": {
+            
+            "summary_page": {
+            "controlAggregation": "pages",
+            "viewName": "summary_page",
+            "viewId": "summary_page",
+            "viewLevel": 8,
+            "transition": "slide"
+            },
+            
+            "threshold_admin_page": {
+            "controlAggregation": "pages",
+            "viewName": "threshold_admin_page",
+            "viewId": "threshold_admin_page",
+            "viewLevel": 9,
+            "transition": "slide"
+            },
+            
+            "balance_sheet": {
+            "controlAggregation": "pages",
+            "viewName": "balance_sheet",
+            "viewId": "balance_sheet",
+            "viewLevel": 2,
+            "transition": "slide"
+            },
+            
+            "cash_flow": {
+            "controlAggregation": "pages",
+            "viewName": "cash_flow",
+            "viewId": "cash_flow",
+            "viewLevel": 1,
+            "transition": "slide"
+            },
+            
+            "operational_metric_graphs": {
+            "controlAggregation": "pages",
+            "viewName": "operational_metric_graphs",
+            "viewId": "operational_metric_graphs",
+            "viewLevel": 7,
+            "transition": "slide"
+            },
+            
+            "debtor_details_page": {
+            "controlAggregation": "pages",
+            "viewName": "debtor_details_page",
+            "viewId": "debtor_details_page",
+            "viewLevel": 4,
+            "transition": "slide"
+            },
+            
+            "income_statement": {
+            "controlAggregation": "pages",
+            "viewName": "income_statement",
+            "viewId": "income_statement",
+            "viewLevel": 3,
+            "transition": "slide"
+            },
+            
+            "efficiency_metrics_graphs": {
+            "controlAggregation": "pages",
+            "viewName": "efficiency_metrics_graphs",
+            "viewId": "efficiency_metrics_graphs",
+            "viewLevel": 5,
+            "transition": "slide"
+            },
+            
+            "solvency_metrics_graphs": {
+            "controlAggregation": "pages",
+            "viewName": "solvency_metrics_graphs",
+            "viewId": "solvency_metrics_graphs",
+            "viewLevel": 6,
+            "transition": "slide"
+            },
+            
+            "liquidity_metrics_graphs": {
+            "controlAggregation": "pages",
+            "viewName": "liquidity_metrics_graphs",
+            "viewId": "liquidity_metrics_graphs",
+            "viewLevel": 10,
+            "transition": "slide"
+            }
+            
+          },
+         "routes": [
+              
+              {
+                "pattern": "summary_page/:context:",
+                "name": "summary_page",
+                "target": [
+                  "summary_page"
+                  ]
+              },
+              
+              {
+                "pattern": "",
+                "name": "default",
+                "target": [
+                  "summary_page"
+                  ]
+              },
+              
+              {
+                "pattern": "threshold_admin_page/:context:",
+                "name": "threshold_admin_page",
+                "target": [
+                  "threshold_admin_page"
+                  ]
+              },
+              
+              {
+                "pattern": "balance_sheet/:context:",
+                "name": "balance_sheet",
+                "target": [
+                  "balance_sheet"
+                  ]
+              },
+              
+              {
+                "pattern": "cash_flow/:context:",
+                "name": "cash_flow",
+                "target": [
+                  "cash_flow"
+                  ]
+              },
+              
+              {
+                "pattern": "operational_metric_graphs/:context:",
+                "name": "operational_metric_graphs",
+                "target": [
+                  "operational_metric_graphs"
+                  ]
+              },
+              
+              {
+                "pattern": "debtor_details_page/:context:",
+                "name": "debtor_details_page",
+                "target": [
+                  "debtor_details_page"
+                  ]
+              },
+              
+              {
+                "pattern": "income_statement/:context:",
+                "name": "income_statement",
+                "target": [
+                  "income_statement"
+                  ]
+              },
+              
+              {
+                "pattern": "efficiency_metrics_graphs/:context:",
+                "name": "efficiency_metrics_graphs",
+                "target": [
+                  "efficiency_metrics_graphs"
+                  ]
+              },
+              
+              {
+                "pattern": "solvency_metrics_graphs/:context:",
+                "name": "solvency_metrics_graphs",
+                "target": [
+                  "solvency_metrics_graphs"
+                  ]
+              },
+              
+              {
+                "pattern": "liquidity_metrics_graphs/:context:",
+                "name": "liquidity_metrics_graphs",
+                "target": [
+                  "liquidity_metrics_graphs"
+                  ]
+              }
+              
+          ]
+      }
+    }
+  }

@@ -1,0 +1,34 @@
+{
+    "dataBinding": {
+        "/webapp/view/summary_page.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/threshold_admin_page.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/balance_sheet.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/cash_flow.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/operational_metric_graphs.view.xml": {
+            "entitySet": "/Operational_MetricsSet"
+        }, 
+        "/webapp/view/debtor_details_page.view.xml": {
+            "entitySet": "/DebtorSet"
+        }, 
+        "/webapp/view/income_statement.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/efficiency_metrics_graphs.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/solvency_metrics_graphs.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/liquidity_metrics_graphs.view.xml": {
+            "entitySet": ""
+        } 
+    }
+}

@@ -1,0 +1,61 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.creditHealth.controller.liquidity_metrics_graphs" xmlns:m="sap.m" xmlns:chart="sap.chart" xmlns:data="sap.chart.data" xmlns:layout="sap.ui.commons.layout">
+    <m:Page showHeader="true" title="Liquidity Metrics Graphs" showFooter="false" showNavButton="false" enableScrolling="false">
+        <m:content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="1px" top="0px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1491312295535" width="50%" height="450px" visibleDimensions="dim0" visibleMeasures="mea0" chartType="column" isAnalytical="false" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="dim0" label="FY" role="category"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Net Debt to EBITDA (x)" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="640px" top="2px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1491312323662" width="50%" height="450px" visibleDimensions="dim0" visibleMeasures="mea0" chartType="column" isAnalytical="false" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="dim0" label="FY" role="category"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Quick Ratio (x)" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="456px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1491312342933" width="50%" height="450px" visibleDimensions="dim0" visibleMeasures="mea0" chartType="column" isAnalytical="false" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="dim0" label="FY" role="category"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Current Ratio (x)" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </m:content>
+        <m:footer>
+            <m:Bar design="Auto">
+                <m:contentLeft/>
+                <m:contentMiddle/>
+                <m:contentRight>
+                    <m:Button text="Approve" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <m:Button text="Reject" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <m:Button text="" type="Default" icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </m:contentRight>
+            </m:Bar>
+        </m:footer>
+        <m:headerContent>
+            <m:Image src="/webapp/resources/back_chevron.png" height="40px" width="40px" densityAware="false" press="_onImagePress"/>
+        </m:headerContent>
+        <m:customHeader/>
+    </m:Page>
+</mvc:View>
