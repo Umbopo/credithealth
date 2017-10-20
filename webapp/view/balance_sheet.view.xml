@@ -1,0 +1,1169 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.creditHealth.controller.balance_sheet" xmlns:m="sap.m" xmlns:layout1="sap.ui.layout" xmlns:layout="sap.ui.commons.layout">
+    <m:Page showHeader="true" title="Balance Sheet" showFooter="false" showNavButton="false" enableScrolling="false">
+        <m:content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="1px">
+                        <layout:control>
+                            <m:Panel height="auto" width="100%" headerText="" expandable="false" expanded="true" expandAnimation="true" backgroundDesign="Solid">
+                                <m:content>
+                                    <m:Panel height="auto" width="100%" headerText="Assets" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                        <m:content>
+                                            <m:Panel height="auto" width="100%" headerText="Current assets" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                <m:content>
+                                                    <m:Panel height="auto" width="100%" headerText="Cash" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                        <m:content>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="ec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Cash and cash equicalents" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="323" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="183" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="240" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="183" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="206" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Short-term investments" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="11" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="8" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="10" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="11" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="7" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Total cash" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="334" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="191" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="250" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="194" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="213" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                        </m:content>
+                                                    </m:Panel>
+                                                    <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                        <m:infoToolbar>
+                                                            <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                <m:content>
+                                                                    <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:content>
+                                                            </m:Toolbar>
+                                                        </m:infoToolbar>
+                                                        <m:headerToolbar/>
+                                                        <m:columns>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                        </m:columns>
+                                                        <m:items>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Receivables" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="558" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="523" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="506" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="468" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="481" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Inventories" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="457" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="448" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="378" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="355" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="337" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Other current assets" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="122" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="136" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="176" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="208" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="186" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Other current assets" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="122" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="136" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="176" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="208" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="186" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                        </m:items>
+                                                    </m:Table>
+                                                </m:content>
+                                            </m:Panel>
+                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                <m:infoToolbar>
+                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <m:content>
+                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:content>
+                                                    </m:Toolbar>
+                                                </m:infoToolbar>
+                                                <m:headerToolbar/>
+                                                <m:columns>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                </m:columns>
+                                                <m:items>
+                                                    <m:ColumnListItem type="Active">
+                                                        <m:cells>
+                                                            <m:ObjectIdentifier title="Total current assets" text="" titleActive="false" visible="true"/>
+                                                            <m:Text text="1471" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1298" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1310" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1225" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1217" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:cells>
+                                                    </m:ColumnListItem>
+                                                </m:items>
+                                            </m:Table>
+                                            <m:Panel height="auto" width="100%" headerText="Non-current assets" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                <m:content>
+                                                    <m:Panel height="auto" width="100%" headerText="Property, plant and equipment" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                        <m:content>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Gross property, plant and equipment" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="1963" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1835" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1299" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1265" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="979" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Accumulated Depreciation" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="-1562" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="-1488" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="-1046" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="-1033" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="-813" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Net property, plant and equipment" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="401" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="347" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="253" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="232" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="166" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                        </m:content>
+                                                    </m:Panel>
+                                                    <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                        <m:infoToolbar>
+                                                            <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                <m:content>
+                                                                    <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:content>
+                                                            </m:Toolbar>
+                                                        </m:infoToolbar>
+                                                        <m:headerToolbar/>
+                                                        <m:columns>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                        </m:columns>
+                                                        <m:items>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Goodwill" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="625" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <layout1:HorizontalLayout>
+                                                                        <layout1:content/>
+                                                                    </layout1:HorizontalLayout>
+                                                                    <layout1:HorizontalLayout>
+                                                                        <layout1:content/>
+                                                                    </layout1:HorizontalLayout>
+                                                                    <layout1:HorizontalLayout>
+                                                                        <layout1:content/>
+                                                                    </layout1:HorizontalLayout>
+                                                                    <layout1:HorizontalLayout>
+                                                                        <layout1:content/>
+                                                                    </layout1:HorizontalLayout>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Intangible assets" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="66" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="705" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="507" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="441" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="356" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Deferred income taxes" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="16" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="7" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="10" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="6" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="10" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Other long-term assets" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="132" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="117" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="119" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="213" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="179" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                        </m:items>
+                                                    </m:Table>
+                                                </m:content>
+                                            </m:Panel>
+                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                <m:infoToolbar>
+                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <m:content>
+                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:content>
+                                                    </m:Toolbar>
+                                                </m:infoToolbar>
+                                                <m:headerToolbar/>
+                                                <m:columns>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header/>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                </m:columns>
+                                                <m:items>
+                                                    <m:ColumnListItem type="Active">
+                                                        <m:cells>
+                                                            <m:ObjectIdentifier title="Total non-current assets" text="" titleActive="false" visible="true"/>
+                                                            <m:Text text="1240" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1176" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="889" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="892" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="711" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:cells>
+                                                    </m:ColumnListItem>
+                                                </m:items>
+                                            </m:Table>
+                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                <m:infoToolbar>
+                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <m:content>
+                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:content>
+                                                    </m:Toolbar>
+                                                </m:infoToolbar>
+                                                <m:headerToolbar/>
+                                                <m:columns>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="c-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                </m:columns>
+                                                <m:items>
+                                                    <m:ColumnListItem type="Active">
+                                                        <m:cells>
+                                                            <m:ObjectIdentifier title="Total assets" text="" titleActive="false" visible="true"/>
+                                                            <m:Text text="2711" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2474" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2199" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2117" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1928" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:cells>
+                                                    </m:ColumnListItem>
+                                                </m:items>
+                                            </m:Table>
+                                        </m:content>
+                                    </m:Panel>
+                                    <m:Panel height="auto" width="100%" headerText="Liabilities and Stockholders' equity" expandable="true" expanded="true" expandAnimation="true" backgroundDesign="Solid">
+                                        <m:content>
+                                            <m:Panel height="auto" width="100%" headerText="Liabilities" expandable="true" expanded="true" expandAnimation="true" backgroundDesign="Solid">
+                                                <m:content>
+                                                    <m:Panel height="auto" width="100%" headerText="Current liabilities" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                        <m:content>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Short-term debt" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="906" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="46" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="487" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="234" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="181" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Capital leases" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="6" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="11" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Accounts payable" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="631" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="622" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="559" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Other current liabilities" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="272" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="284" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="951" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="838" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="321" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header/>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Total current liabilities" text="Product ID" titleActive="false" visible="true"/>
+                                                                            <m:Text text="1809" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="952" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1438" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1078" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="1072" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                        </m:content>
+                                                    </m:Panel>
+                                                    <m:Panel height="auto" width="100%" headerText="Non-current liabilities" expandable="true" expanded="false" expandAnimation="true" backgroundDesign="Solid">
+                                                        <m:content>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Long-term debt" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="28" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="677" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="291" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="241" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="203" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Capital leases" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="46" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Deferred taxes liabilities" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="56" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="23" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="7" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="13" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="2" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Minority interest" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="1" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <layout1:HorizontalLayout>
+                                                                                <layout1:content/>
+                                                                            </layout1:HorizontalLayout>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Other long-term liabilities" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="148" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="168" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="142" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="197" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="137" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                                <m:infoToolbar>
+                                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                        <m:content>
+                                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:content>
+                                                                    </m:Toolbar>
+                                                                </m:infoToolbar>
+                                                                <m:headerToolbar/>
+                                                                <m:columns>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                        <m:header>
+                                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:header>
+                                                                        <m:footer/>
+                                                                    </m:Column>
+                                                                </m:columns>
+                                                                <m:items>
+                                                                    <m:ColumnListItem type="Active">
+                                                                        <m:cells>
+                                                                            <m:ObjectIdentifier title="Total non-current liabilities" text="" titleActive="false" visible="true"/>
+                                                                            <m:Text text="233" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="868" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="440" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="451" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                            <m:Text text="388" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                        </m:cells>
+                                                                    </m:ColumnListItem>
+                                                                </m:items>
+                                                            </m:Table>
+                                                        </m:content>
+                                                    </m:Panel>
+                                                    <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                        <m:infoToolbar>
+                                                            <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                <m:content>
+                                                                    <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:content>
+                                                            </m:Toolbar>
+                                                        </m:infoToolbar>
+                                                        <m:headerToolbar/>
+                                                        <m:columns>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                        </m:columns>
+                                                        <m:items>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Total liabilities" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="2042" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="1820" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="1878" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="1529" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="1460" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                        </m:items>
+                                                    </m:Table>
+                                                </m:content>
+                                            </m:Panel>
+                                            <m:Panel height="auto" width="100%" headerText="Stockholders' eqity" expandable="true" expanded="true" expandAnimation="true" backgroundDesign="Solid">
+                                                <m:content>
+                                                    <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                        <m:infoToolbar>
+                                                            <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                <m:content>
+                                                                    <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:content>
+                                                            </m:Toolbar>
+                                                        </m:infoToolbar>
+                                                        <m:headerToolbar/>
+                                                        <m:columns>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                        </m:columns>
+                                                        <m:items>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Additional paid-in capital" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="95" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="95" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="135" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="163" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Retained earnings" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="638" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="508" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="93" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="342" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="304" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Accumulated other comprehensive income" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="13" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="51" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="228" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="111" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="1" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                        </m:items>
+                                                    </m:Table>
+                                                    <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                        <m:infoToolbar>
+                                                            <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                                <m:content>
+                                                                    <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:content>
+                                                            </m:Toolbar>
+                                                        </m:infoToolbar>
+                                                        <m:headerToolbar/>
+                                                        <m:columns>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                            <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                                <m:header>
+                                                                    <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:header>
+                                                                <m:footer/>
+                                                            </m:Column>
+                                                        </m:columns>
+                                                        <m:items>
+                                                            <m:ColumnListItem type="Active">
+                                                                <m:cells>
+                                                                    <m:ObjectIdentifier title="Total stockholders' equity" text="" titleActive="false" visible="true"/>
+                                                                    <m:Text text="746" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="654" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="321" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="588" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                    <m:Text text="468" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                                </m:cells>
+                                                            </m:ColumnListItem>
+                                                        </m:items>
+                                                    </m:Table>
+                                                </m:content>
+                                            </m:Panel>
+                                            <m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">
+                                                <m:infoToolbar>
+                                                    <m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <m:content>
+                                                            <m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:content>
+                                                    </m:Toolbar>
+                                                </m:infoToolbar>
+                                                <m:headerToolbar/>
+                                                <m:columns>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2011" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2012" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2013" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2014" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                    <m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                                        <m:header>
+                                                            <m:Text text="Dec-2015" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:header>
+                                                        <m:footer/>
+                                                    </m:Column>
+                                                </m:columns>
+                                                <m:items>
+                                                    <m:ColumnListItem type="Active">
+                                                        <m:cells>
+                                                            <m:ObjectIdentifier title="Total liabilities and stockholders' equity" text="" titleActive="false" visible="true"/>
+                                                            <m:Text text="2788" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2474" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2199" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="2117" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                            <m:Text text="1928" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+                                                        </m:cells>
+                                                    </m:ColumnListItem>
+                                                </m:items>
+                                            </m:Table>
+                                        </m:content>
+                                    </m:Panel>
+                                </m:content>
+                            </m:Panel>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </m:content>
+        <m:footer>
+            <m:Bar design="Auto">
+                <m:contentLeft/>
+                <m:contentMiddle/>
+                <m:contentRight>
+                    <m:Button text="Approve" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <m:Button text="Reject" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <m:Button text="" type="Default" icon="sap-icon://action" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </m:contentRight>
+            </m:Bar>
+        </m:footer>
+        <m:headerContent>
+            <m:Image src="/webapp/resources/back_chevron.png" height="40px" width="40px" densityAware="false" press="_onImagePress2"/>
+        </m:headerContent>
+        <m:customHeader/>
+    </m:Page>
+</mvc:View>
